@@ -1,0 +1,21 @@
+{
+  "name": "tuncerBlog",
+  "authors": [
+    "tuncerb17 <tuncerb17@gmail.com>"
+  ],
+  "description": "TuncerBlog",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

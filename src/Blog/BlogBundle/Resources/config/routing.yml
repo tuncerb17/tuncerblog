@@ -1,0 +1,27 @@
+blog_homepage:
+    path:     /
+    defaults: { _controller: BlogBlogBundle:Default:home }
+
+blog_about:
+    path:     /about
+    defaults: { _controller: BlogBlogBundle:Default:about }
+
+blog_all:
+    path:     /blogs
+    defaults: { _controller: BlogBlogBundle:Blog:allBlog }
+    requirements:
+        _method:  GET
+
+blog_one:
+    path:     /blog/{slug}
+    defaults: { _controller: BlogBlogBundle:Blog:oneBlog }
+    requirements:
+        _method:  GET
+
+blog_add_blog:
+    path:     /add-blog
+    defaults: { _controller: BlogBlogBundle:Blog:addBlog }
+    requirements:
+        _method:  GET|POST
+
+
